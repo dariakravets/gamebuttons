@@ -1,0 +1,55 @@
+html, body{
+    background-color: #161616;
+    background-image: url("back.svg");
+}
+
+.header{
+    font-family: Bahnschrift;
+    font-size: 36px;
+    margin: 200px auto auto 560px;
+    color: white;
+    size: 50px 100px;
+}
+
+#win{
+    position: absolute;
+    text-align:center;
+    background-color: white;
+    color: #161616;
+    font-family: Bahnschrift;
+    font-size: 26px;
+    left: 540px;
+    top: 300px;
+    margin-right: 20px;
+    border-radius:5px;
+    border-width: 20px;
+    border-color: white;
+}
+
+#lose{
+    position: absolute;
+    text-align:center;
+    background-color: white;
+    color: #161616;
+    font-family: Bahnschrift;
+    font-size: 26px;
+    left: 720px;
+    top: 300px;
+    border-radius:5px;
+    border-width: 20px;
+    border-color: white;
+}
+
+#game-message{
+    color: #161616;
+    font-family: Bahnschrift;
+    font-size: 26px;
+    background:white;
+    border-radius:20px;
+    width:300px;
+    display:none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+    margin: 300px auto auto 520px;
+}
